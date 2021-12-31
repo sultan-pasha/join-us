@@ -1,0 +1,128 @@
+/*  
+        ==========
+        =  Fonts =
+        ========== 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+html{
+    font-size: 18px;
+    font-family: 'Tajawal', sans-serif
+}
+
+/*
+        ===========
+        =  global =
+        ===========
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body{
+    background-color: #38cc8c;
+    color: white;
+    direction: rtl
+}
+header{
+    background-image: linear-gradient(45deg, #666, #333)
+}
+h2{
+    color: white;
+    direction: rtl;
+    margin: 2em auto;
+    width: 14em; /*fit-content doesn't work*/
+    text-decoration: underline;
+}
+.btn{
+    padding: 1em 3em;
+    margin: 1.5em 0;
+    background-color: #38cc8c;
+    color: white;
+    border: none;
+    font-size: .6em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background-color: #30b179;
+}
+/*  
+        =========
+        = intro =
+        =========
+*/
+
+.intro{
+    min-height: 50vh;
+    max-width: 73.61em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.intro img{
+    max-width: 18em
+}
+.intro > div{
+    padding: 1rem;
+    font-size: 1.2em
+}
+.intro h1{
+    margin: .5em 0
+}
+/*      Mems list      */
+.mems{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 60px;
+    gap: .5em;
+    padding: 1em;
+    min-height: 50vh;
+    direction: ltr
+}
+.mems .mem{
+    font-family: "Josefin Sans", monospace;
+    background-color:#555;
+    color: white;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 0 0 1em
+}
+.mem::before{
+    content: "";
+    width: 1em;
+    height: 100%;
+    background-color: #444 ;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.mem::after{
+    content: attr(github-username);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    background-image: url('../images/github.png');
+    background-size: 2%;
+    border-radius: .2em;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0
+}
+.mem:hover::after{
+    opacity: 1
+}
