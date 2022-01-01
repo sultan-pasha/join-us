@@ -125,3 +125,26 @@ h2{
 .mem:hover::after{
     opacity: 1
 }
+
+/*      Meduim and small screens    */
+@media (max-width : 801px) {
+    .intro{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+@media (max-width: 475px) {
+    .intro{
+        padding: 2em 0
+    }
+}
+@media (max-width:420px) {
+    h2{
+        max-width: 80%;
+        text-align: center
+    }
+}
+
+
+
