@@ -1,5 +1,7 @@
 # مرحبا..
 
+***Read this in [English](translations/README.en.md).***
+
 يمكنك عمل``` fork```  للكود  ثم عدل على  ملف ```index.html```
 
 * توجه الى العنصر ```<div class = "mems"></div>```
