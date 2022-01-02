@@ -5,6 +5,7 @@
  First *[Fork](https://github.com/my-happy-team/join-us)* this repository and then edit `index.html` .
 
 * Go to the `<div class = "mems"></div>`.
+
 * Then add a `<div>` element inside of it :
 
 ```html
@@ -24,7 +25,7 @@
 ```
 
 * Click on [Create Pull Request](https://github.com/my-happy-team/join-us/compare).
-* 
+
 * Voila! You have made a PR. Sit back and relax while your PR is reviewed by the maintainers.
 
 *In case you need any help, please feel free to contact us [here](https://github.com/my-happy-team).*
