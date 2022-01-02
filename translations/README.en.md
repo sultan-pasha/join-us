@@ -1,11 +1,11 @@
 # Welcome to [My-happy-team](https://github.com/my-happy-team/)
 
-## Contributing 
+## Join us 
 
  First *[Fork](https://github.com/my-happy-team/join-us)* this repository and then edit *index.html* .
 
-* Navigate to the `<div class = "mems"></div>`.
-* Then add a `<div>` element with these changes :
+* Go to the `<div class = "mems"></div>`.
+* Then add a `<div>` element inside of it :
 
 ```html
 <!-- add your name -->
@@ -16,7 +16,7 @@
 
 :heavy_check_mark: Please Make sure that your element has ```class="mem"```.
 
-:heavy_check_mark: Do not forget to add your **github username** make sure that it is correct.
+:heavy_check_mark: Do not forget to add your **github username** and make sure that it is correct.
 
 ```html
 <!-- Example -->
@@ -28,6 +28,6 @@
 
 *In case you need any help, please feel free to contact us [here](https://github.com/my-happy-team).*
 
-![](../images/new-mem.png)
+![](../images/new-mem-en.png)
 
 # Thank You
