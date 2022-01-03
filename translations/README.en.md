@@ -29,10 +29,11 @@
 * Voila! You have made a PR. Sit back and relax while your PR is reviewed by the maintainers.
 
 #
+
 ![](../images/new-mem-en.png)
+
 #
 
-*In case you need any help, please feel free to contact us [here](https://github.com/my-happy-team).*
 
 
 # Thank You
