@@ -4,7 +4,7 @@
 
 ## team 1 
 whatsapp groupe :
-![](./images/whatsapp-team-1.jpg)
+<img src="./images/whatsapp-team-1.jpg" width="300" height = "250">
 
 ## team 2
 ## team 3
