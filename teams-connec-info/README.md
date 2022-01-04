@@ -4,7 +4,7 @@
 
 ## team 1 
 whatsapp groupe :
-![](./images/whatsapp-team-1.png)
+![](./images/whatsapp-team-1.jpg)
 
 ## team 2
 ## team 3
