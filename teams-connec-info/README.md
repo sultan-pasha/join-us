@@ -4,7 +4,8 @@
 
 ## team 1 
 whatsapp groupe :
-<img src="./images/whatsapp-team-1.jpg" width="300" height = "250">
+
+<img src="./images/whatsapp-team-1.jpg" width="400" height = "400" style = "display: block">
 
 ## team 2
 ## team 3
