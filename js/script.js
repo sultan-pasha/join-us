@@ -1,5 +1,4 @@
 let mems = document.querySelector(".mems");
-}
 
 Object.values(mems.children).forEach(element => {
   element.addEventListener('click', user=>openUsersProfiles(user));
