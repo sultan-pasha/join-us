@@ -35,9 +35,10 @@ header{
 h2{
     color: white;
     direction: rtl;
-    margin: 2em auto;
-    width: 14em; /*fit-content doesn't work*/
+    margin: 2em 0;
     text-decoration: underline;
+    display: flex;
+    justify-content: center
 }
 .btn{
     padding: 1em 3em;
@@ -140,12 +141,40 @@ h2{
         padding: 2em 0
     }
 }
-@media (max-width:420px) {
-    h2{
-        max-width: 80%;
-        text-align: center
+
+/*
+        =============
+        = clarfict  =
+        =============
+*/
+.clarfict {
+    margin: 2em 0  0 0;
+    padding: 1em;
+    background-color: hsl(0, 100%, 74%)
+}
+.clarfict h3{
+    width: 6em;
+    position: relative;
+    padding: .3em  2em;
+    margin-bottom: 1em
+}
+.clarfict h3::before{
+    content: '';
+    width: 1em;
+    height: 100%;
+    background-color: tomato;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+.clarfict p{
+    padding: .2em 0
+}
+.clarfict a{
+    font-size: small
+}
+@media (max-width: 720px) {
+    .clarfict{
+        font-size: .85rem
     }
 }
-
-
-
