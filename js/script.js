@@ -1,7 +1,8 @@
 let mems = document.querySelector(".mems");
 
-Object.values(mems.children).forEach(element => {
-  element.addEventListener('click', user=>openUsersProfiles(user));
+Object.values(mems.children).forEach((mem, index) => {
+  mem.addEventListener('click', user=>openUsersProfiles(user));
+  mem.classList.add(`team-${Math.trunc(index / 5 + 1)}`);
 });
 
 function openUsersProfiles(user){

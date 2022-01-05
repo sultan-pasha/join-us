@@ -1,0 +1,12 @@
+
+$colors : #FFC900, #086E7D, #F05454, #3FA796, #8E806A, #519259, #3DB2FF, #BFA2DB, #FF5959, #06FF00 ;
+$team-num: 1;
+
+@each $color in $colors{
+    .team-#{$team-num}{
+        &::before{
+            background-color: $color
+        }
+    }
+    $team-num : $team-num + 1;
+}

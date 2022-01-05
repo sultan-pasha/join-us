@@ -1,0 +1,40 @@
+.team-1::before {
+  background-color: #FFC900;
+}
+
+.team-2::before {
+  background-color: #086E7D;
+}
+
+.team-3::before {
+  background-color: #F05454;
+}
+
+.team-4::before {
+  background-color: #3FA796;
+}
+
+.team-5::before {
+  background-color: #8E806A;
+}
+
+.team-6::before {
+  background-color: #519259;
+}
+
+.team-7::before {
+  background-color: #3DB2FF;
+}
+
+.team-8::before {
+  background-color: #BFA2DB;
+}
+
+.team-9::before {
+  background-color: #FF5959;
+}
+
+.team-10::before {
+  background-color: #06FF00;
+}
+/*# sourceMappingURL=teams.css.map */
